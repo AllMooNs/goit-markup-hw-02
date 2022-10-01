@@ -1,0 +1,31 @@
+body {
+    background-color: #fff;
+    color: #212121;
+}
+
+.list {
+    list-style: none;
+}
+
+/* Header */
+
+.header-logo {
+    color: #000000;
+    /* color: #2196f3; */
+}
+
+.header-link {
+    color:inherit ;
+}
+
+.header-link:hover,:focus {
+    color: #2196f3;
+}
+.header-address {
+    color: #757575;
+}
+
+.header-address:hover, :focus {
+    color: #2196f3;
+}
+
