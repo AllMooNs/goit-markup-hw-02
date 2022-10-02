@@ -134,6 +134,10 @@ body {
     letter-spacing: 0.03em;
 }
 
+.bg-color {
+    background-color: #F5F4FA;
+}
+
 .team .title {
     font-weight: 500;
     font-size: 16px;
