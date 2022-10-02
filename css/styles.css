@@ -1,6 +1,7 @@
 :root {
     --primary-text-color: #212121;
     --title-text-color: #000000;
+    --second-text-color: #757575;
     --accent-color: #2196f3;
     --second-bc: #2F303A;
     --white: #fff;
@@ -47,8 +48,13 @@ body {
 .header-link:focus {
     color: var(--accent-color);
 }
+
+.site-nav .header-link.current {
+    color: var(--accent-color);
+}
+
 .header-address {
-    color: #757575;
+    color: var(--second-text-color);
 }
 
 .header-address:hover, 
@@ -62,11 +68,19 @@ body {
     background-color: var(--second-bc);
 }
 .hero-title {
-    color: #fff;
+    color: var(--white);
+}
+
+.btn {
+    background-color: var(--accent-color);
+}
+
+.btn-text {
+color: var(--white);
 }
 
 .description {
-    color: #757575;
+    color: var(--second-text-color);
 }
 
 /* footer */
@@ -76,7 +90,7 @@ body {
 }
 
 .page-footer .address {
-    color: #fff;
+    color: var(--white);
 }
 
 .page-footer .contact {
@@ -89,7 +103,8 @@ body {
 
 /* portfolio */
 
-.portfolio-link:hover, 
-.portfolio-link:focus{
-color: #fff;
+.btn-portfolio:hover, 
+.btn-portfolio:focus{
+background-color: var(--accent-color);
+color: var(--white);
 }
