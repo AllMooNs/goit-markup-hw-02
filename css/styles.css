@@ -5,6 +5,7 @@
     --accent-color: #2196f3;
     --second-bc: #2F303A;
     --white: #fff;
+    --btn-bg-color: #F5F4FA;
 
 }
 
@@ -72,7 +73,7 @@ body {
 }
 
 .btn {
-    background-color: var(--accent-color);
+    background-color: var(--btn-bg-color);
     cursor: pointer;
 }
 
@@ -81,10 +82,6 @@ body {
 background-color: var(--accent-color);
 color: var(--white);
 cursor: pointer;
-}
-
-.btn-text {
-color: var(--white);
 }
 
 .description {
