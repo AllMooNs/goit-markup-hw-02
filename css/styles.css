@@ -73,6 +73,14 @@ body {
 
 .btn {
     background-color: var(--accent-color);
+    cursor: pointer;
+}
+
+.btn:hover, 
+.btn:focus{
+background-color: var(--accent-color);
+color: var(--white);
+cursor: pointer;
 }
 
 .btn-text {
@@ -103,8 +111,3 @@ color: var(--white);
 
 /* portfolio */
 
-.btn-portfolio:hover, 
-.btn-portfolio:focus{
-background-color: var(--accent-color);
-color: var(--white);
-}
