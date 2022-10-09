@@ -1,12 +1,12 @@
 :root {
     --primary-text-color: #212121;
-    --title-text-color: #000000;
+    --title-text-color: #000;
     --second-text-color: #757575;
     --accent-color: #2196f3;
-    --second-bc: #2F303A;
+    --second-bc: #2f303a;
     --white: #fff;
-    --btn-bg-color: #F5F4FA;
-
+    --btn-bg-color: #f5f4fa;
+    --btn-hero-color: #188ce8;
 }
 
 body {
@@ -43,7 +43,7 @@ body {
 
 .logo {
     color: var(--title-text-color);
-    font-family: Raleway, cursive;
+    font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
@@ -59,7 +59,7 @@ body {
 }
 
 .page-header .link:hover,
-.page-header .linkk:focus {
+.page-header .link:focus {
     color: var(--accent-color);
 }
 
@@ -67,7 +67,7 @@ body {
     color: var(--accent-color);
 }
 
-.page-header .address {
+.page-header .add {
     color: var(--second-text-color);
     font-style: normal;
     font-weight: 500;
@@ -77,8 +77,8 @@ body {
     text-decoration: none;
 }
 
-.page-header .address:hover, 
-.page-header .address:focus {
+.page-header .add:hover, 
+.page-header .add:focus {
     color: var(--accent-color);
 }
 
@@ -111,8 +111,12 @@ body {
     letter-spacing: 0.06em;
 }
 
+.hero .btn:hover,
+.hero .btn:focus {
+    background-color: var(--btn-hero-color);
+}
+
 .section-title {
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
@@ -120,7 +124,6 @@ body {
 }
 
 .benefits .title {
-    font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
@@ -135,7 +138,7 @@ body {
 }
 
 .bg-color {
-    background-color: #F5F4FA;
+    background-color: var(--btn-bg-color);
 }
 
 .team .title {
@@ -152,6 +155,10 @@ body {
     line-height: 1.88;
     text-align: center;
     letter-spacing: 0.03em;
+}
+
+.bg-text {
+    background-color: var(--white);
 }
 
 /* footer */
@@ -174,6 +181,11 @@ body {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
+}
+
+.info .contact:hover,
+.info .contact:focus {
+    color: var(--accent-color);
 }
 
 .f-web{
